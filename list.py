@@ -30,3 +30,5 @@ num1.sort(reverse=True)
 print(num1)
 num2=num1.copy()
 print(num2)
+num3=[1,1,1,4,5,6,8,]
+print(num3)
