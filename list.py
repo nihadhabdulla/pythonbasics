@@ -32,3 +32,10 @@ num2=num1.copy()
 print(num2)
 num3=[1,1,1,4,5,6,8,]
 print(num3)
+vegitables=["potato","tomato","cucumber"]
+for i in vegitables:
+    print(i)
+for i in "banana":
+    print(i)
+for i in range(2,6):
+    print(i)      

@@ -10,3 +10,23 @@ a=student.values()
 print(a)
 b=student.items()
 print(b)
+student["name"]="abdulla"
+print(student)
+student.update({"age":26})
+print(student)
+student["course"]="bca"
+print(student)
+student.update({"diploma":"computer science"})
+print(student)
+student.pop("age")
+print(student)
+student.popitem()
+print(student)
+#student.clear()
+print(student)
+#del student
+print(student)
+student1=student.copy()
+print(student)
+class1={"child1":{"name":"nihal","age":28},"child2":{"name":"nihan","age":13},"child3":{"name":"fahma","age":23}}
+print(class1)
