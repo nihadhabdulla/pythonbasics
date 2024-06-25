@@ -1,7 +1,15 @@
-numbers=(1,2,3,4,5,6,7,8,9,10)
+numbers=(19,76,75,98,36,73,84,33,66)
 print(numbers)
+even=0
+odd=0
 for i in numbers:
     if(i%2==0):
-        print(i,"even number")
+        even=even+1
+        print("even number")        
     else:
-        print(i,"odd number")    
+        odd=odd+1 
+        print("odd number")
+print(even)
+print(odd)
+
+           
