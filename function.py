@@ -14,9 +14,9 @@ def my_names(fname,lname):
 my_names("nihadh","abdulla")
 
 
-def my_argiritatry(*kid):
+def my_arbiratry(*kid):
     print("the youngest one"+" "+kid[2])
-my_argiritatry("nihad","nihal","abdulla")  
+my_arbiratry("nihad","nihal","abdulla")  
 
 
 
@@ -26,9 +26,9 @@ my_keyword(child1="nihadh",child2="subaida",child3="abdulla")
 
 
 
-def my_argiritatrykeyword(**school):
+def my_arbiratrykeyword(**school):
     print("start name is"+" "+school["fname"]+school["lname"])
-my_argiritatrykeyword(fname="futura",lname="labs")    
+my_arbiratrykeyword(fname="futura",lname="labs")    
 
 
 words=int(input("enter a number"))
