@@ -8,3 +8,4 @@ k=[]
 for i in l:
     k.append(i)
 print(" ".join(k))
+
