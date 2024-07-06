@@ -13,5 +13,5 @@ count=0
 for i in j:
   if i in vowels:
    count=count+1
-print("the number of vowels in given sentence is:",count)   
+print("the number of vowels in given sentence is:",count) 
   
