@@ -27,4 +27,30 @@ class child(parent):
     pass
 p4=child("nihal","abdulla")
 p4.print_name()
-    
+
+#overloading and overriding
+
+def multi(a,b):
+    c=a*b
+    print(c)
+def multi(a,b,c):
+    d=a*b*c
+    print(d)
+multi(10,2,6)   
+
+
+
+class parent():
+    def __init__(self):
+        self.value="inside parent"
+    def show(self):
+        print(self.value) 
+
+class child(parent):
+    def __init__(self):
+        self.value="inside child"
+    def show(self):
+        print(self.value)           
+obj1=parent()
+obj2=child()
+obj2.show()   

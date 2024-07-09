@@ -1,0 +1,17 @@
+f=open("filehandling.txt","r")
+print(f.read())
+f=open("filehandling.txt","r")
+print(f.read(30))
+f=open("filehandling.txt","a")
+f.write(" thank you have a nice day")
+f.close()
+f=open("filehandling.txt","r")
+print(f.read())
+
+
+#creating fily=open("myfile.txt","x")
+y=open("myfile.txt","a")
+y.write("welcome to futura labs")
+y.close()
+y=open("myfile.txt","r")
+print(y.read())
