@@ -10,7 +10,7 @@ fruits[1:3]=["kiwi","apple"]
 print(fruits)
 fruits.insert(2,"watermelon")
 print(fruits)
-fruits.append("cherry")
+fruits.append("cherry")   
 print(fruits)
 num=[1,2,3,4,5]
 fruits.extend(num)
@@ -33,7 +33,7 @@ print(num2)
 num3=[1,1,1,4,5,6,8,]
 print(num3)
 vegitables=["potato","tomato","cucumber"]
-for i in vegitables:
+for i in vegitables:                 
     print(i)
 for i in "banana":
     print(i)

@@ -5,16 +5,16 @@ X=2
 y=4.1
 z=3+5j
 print(type(y))
-print(type(x))
+print(type(X))
 print(type(z))
-print(x)
-w=float(x)
+print(X)
+w=float(X)
 print(w)
 s=int(y)
 print(s)
 t=complex(x)
 print(t)
-u="h ai"
+u="hai"
 print(u)
 v="""hi nihad
 from thrissur"""

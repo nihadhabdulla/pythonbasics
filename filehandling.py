@@ -9,7 +9,7 @@ f=open("filehandling.txt","r")
 print(f.read())
 
 
-#creating fily=open("myfile.txt","x")
+#creating file y=open("myfile.txt","x")
 y=open("myfile.txt","a")
 y.write("welcome to futura labs")
 y.close()
